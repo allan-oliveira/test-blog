@@ -8,10 +8,10 @@ paginate = 5
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 10
 
   # show selector to switch language
   showLanguageSelector = false
@@ -20,7 +20,7 @@ paginate = 5
   fullWidthTheme = false
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
@@ -54,10 +54,26 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+        identifier = "oop"
+        name = "OOP"
+        url = "/oop"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "solid"
+        name = "SOLID"
+        url = "/solid"
+      [[languages.en.menu.main]]
+        identifier = "dependency-injection"
+        name = "Dependency Injection"
+        url = "/dependency-injection"
+      [[languages.en.menu.main]]
+        identifier = "clean-code"
+        name = "Clean Code"
+        url = "/clean-code"
+      [[languages.en.menu.main]]
+        identifier = "designpatterns"
+        name = "Design Patterns"
+        url = "/design-patterns" 
+      [[languages.en.menu.main]]
+        identifier = "software-architecture"
+        name = "Software Architecture"
+        url = "/software-architecture"           
